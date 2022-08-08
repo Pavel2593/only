@@ -1,0 +1,8 @@
+@use './_main/reset';
+@use './_main/font';
+@use './_main/color' as *;
+@use './_main/styles';
+
+html, body, #root {
+    height: 100vh;
+}
