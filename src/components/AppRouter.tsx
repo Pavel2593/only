@@ -15,7 +15,7 @@ const AppRouter: React.FunctionComponent = () => {
                     />
                 )
             }
-            <Route path='*' element={<Navigate to='/login'/>} />
+            <Route path='*' element={<Auth/>} />
         </Routes>
     );
 }
