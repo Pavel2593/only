@@ -12,12 +12,16 @@ const Hello = styled.div`
     color: #000;
 `
 
+const FontBold = styled.div`
+    font-weight: 700;
+`
+
 const App: React.FunctionComponent = () => {
     const navigate = useNavigate()
     return (
         <PageWrapper>
             <Title textAlign='center'>ONLY.</Title>
-            <Hello>Здравствуйте, {localStorage.getItem('email')}</Hello>
+            <Hello>Здравствуйте, <FontBold>{localStorage.getItem('email')}</FontBold></Hello>
             <Button
                 color='#000'
                 backgroundColor= '#fff'

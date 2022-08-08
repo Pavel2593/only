@@ -4,11 +4,11 @@ import { IRoutesItem } from "./types/RoutesItem";
 
 export const RoutesItem: IRoutesItem[] = [
     {
-        path: '/profile',
+        path: '/only/profile',
         Component: Profile,
     },
     {
-        path: '/login',
+        path: '/only/login',
         Component: Auth,
     }
 ]

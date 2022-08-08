@@ -15,7 +15,7 @@ const AppRouter: React.FunctionComponent = () => {
                     />
                 )
             }
-            <Route path='*' element={<Auth/>} />
+            <Route path='*' element={<Navigate to='/only/login'/>} />
         </Routes>
     );
 }
