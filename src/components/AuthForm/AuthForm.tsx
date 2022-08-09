@@ -42,10 +42,9 @@ const AuthForm: React.FunctionComponent = () => {
 
     useEffect(() => {
         if (requestLogin.status === 200 || requestCheck.status === 200) {
-            navigate('/profile')
+            navigate('/only/profile')
         }
     }, [requestLogin.status, requestCheck.status])
-    console.log(requestLogin.isLoading)
     return (
         <Form onSubmit={Submit}>
             {requestLogin.error &&

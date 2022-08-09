@@ -12,7 +12,7 @@ const Hello = styled.div`
     color: #000;
 `
 
-const FontBold = styled.div`
+const FontBold = styled.span`
     font-weight: 700;
 `
 
